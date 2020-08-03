@@ -22,9 +22,7 @@
 		body{top:0px!important;}
 		</style>
         <!--  End Language translator-->
-        <!-- intro.js css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/introjs.min.css" integrity="sha512-DcHJLWkmfnv+isBrT8M3PhKEhsHWhEgulhr8m5EuGhdAG9w+vUyjlwgR4ISLN0+s/m4ItmPsTOqPzW714dtr5w==" crossorigin="anonymous" />
-        <!-- End intro.js css -->
+        
         @if (core()->getCurrentLocale()->direction == 'rtl')
             <link href="{{ asset('themes/velocity/assets/css/bootstrap-flipped.css') }}" rel="stylesheet">
         @endif
@@ -203,10 +201,6 @@
             type="text/javascript"
             src="{{ asset('vendor/webkul/ui/assets/js/ui.js') }}">
         </script>
-
-        <!-- intro.js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.min.js" integrity="sha512-VTd65gL0pCLNPv5Bsf5LNfKbL8/odPq0bLQ4u226UNmT7SzE4xk+5ckLNMuksNTux/pDLMtxYuf0Copz8zMsSA==" crossorigin="anonymous"></script>
-        <!--End  intro.js -->
         <!-- Custom js-->
         <script src="{{asset('assets/js/custom-intro.js')}}"></script>
         <!-- End Custom js-->

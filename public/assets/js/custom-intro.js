@@ -1,17 +1,19 @@
 let intro=introJs();
 
-intro.setOptions({
-    steps:
-        [
-            {
-                intro:"Welcome to tribe shop",
-            },
-            {
-                element:'.pull-left',
-                intro:'Change language related to your region.,'
-            },
-        ]
-})
+// intro.setOptions({
+//     steps:
+//         [
+            
+//             {
+//                 element:'step-one',
+//                 intro:'Click Catelog.'
+//             },
+//             {
+//                 element:'step-tow',
+//                 intro:'Choose Products menu.'
+//             },
+//         ]
+// })
 
 
 intro.start();
